@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar
+{
+    height: 50px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    display: flex;
+}
+#navbar ul
+{
+    /* justify-content: center; */
+    display: flex;
+}
+#navbar ul li
+{
+    margin: 17px;
+    list-style: none;
+}
+#navbar ul li a
+{
+    color: wheat;
+    text-decoration: none;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#home
+{
+    width: 500px;
+    height: 703px;
+    justify-content: center;
+    padding: 3px 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+#btn
+{
+    width: 164px;
+    padding: 11px 14px;
+    background-color: cornflowerblue;
+    /* background: transparent; */
+    border: black;
+    color:#ffffff;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#home::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 762px;
+    z-index: -1;
+    opacity: 0.89;
+    background: url(images-2/photo-1501504905252-473c47e087f8.jpeg) no-repeat center center/cover;
+}
+#home h1
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color:black;
+font-size: 2.2rem;}
+#home h2
+{
+    color: rgb(255, 196, 0);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#box1{
+    /* border: 2px solid red; */
+    height: 739px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#box2
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    width: 100%;
+    height: 208px;
+}
